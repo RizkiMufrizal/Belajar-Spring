@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="sistemOperasiUbuntu" class="com.rizki.mufrizal.belajarSpring.domain.SistemOperasi">
+        <property name="namaSistemOperasi" value="Ubuntu"/>
+        <property name="versiSistemOperasi" value="14.04"/>
+    </bean>
+
+    <bean id="sistemOperasiFedora" class="com.rizki.mufrizal.belajarSpring.domain.SistemOperasi">
+        <property name="namaSistemOperasi" value="Fedora"/>
+        <property name="versiSistemOperasi" value="fedora 22"/>
+    </bean>
+
+    <bean id="sistemOperasiElementary" class="com.rizki.mufrizal.belajarSpring.domain.SistemOperasi">
+        <property name="namaSistemOperasi" value="Elementary os"/>
+        <property name="versiSistemOperasi" value="Freya"/>
+    </bean>
+
+</beans>
